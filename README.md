@@ -31,15 +31,15 @@ Aplikasi ini akan dijalankan di server lokal (laptop yang kuat) dan di-tunneling
     |-- 📄 requirements.txt
     `-- 📄 README.md
     ```
-3.  Pastikan Anda memiliki environment Python yang sudah terinstal semua dependensi.
+2.  Pastikan Anda memiliki environment Python yang sudah terinstal semua dependensi.
     ```bash
     pip install -r requirements.txt
     ```
-4.  Pastikan semua data dan model sudah ada di folder yang benar (`/data/` dan `/models/`).
-5.  Tunneling dengan `ngrok`:
-    5a.  Instal `ngrok`:
+3.  Pastikan semua data dan model sudah ada di folder yang benar (`/data/` dan `/models/`).
+4.  Tunneling dengan `ngrok`:
+    - Instal `ngrok`:
     Download `ngrok.exe` dari [ngrok.com](https://ngrok.com/)
-    5b.  (Penting) Autentikasi `ngrok` (hanya perlu sekali) dengan menjalankan perintah yang ada di dashboard `ngrok`:
+    - (Penting) Autentikasi `ngrok` (hanya perlu sekali) dengan menjalankan perintah yang ada di dashboard `ngrok`:
     ```bash
     ngrok config add-authtoken [TOKEN_ANDA]
     ```
@@ -65,13 +65,12 @@ Aplikasi ini akan dijalankan di server lokal (laptop yang kuat) dan di-tunneling
     ```
 
 ### III. Bagikan Link
-`ngrok` akan memberi Anda sebuah URL publik seperti ini: `Forwarding https://abc-123.ngrok-free.app -> http://localhost:8501`
-Bagikan link `https://abc-123.ngrok-free.app` kepada siapa saja yang perlu melihat demo. Selama kedua terminal Anda tetap berjalan, aplikasi akan bisa diakses dari link tersebut.
+`ngrok` akan memberi sebuah URL publik seperti ini: `Forwarding https://abc-123.ngrok-free.app -> http://localhost:8501`
+Bagikan link `https://abc-123.ngrok-free.app` kepada siapa saja yang perlu melihat demo. Selama kedua terminal tetap berjalan, aplikasi akan bisa diakses dari link tersebut.
 
 
 ### IV. Catatan untuk dipahami
-1.  Koordinasi untuk Demo: Tentukan jam presentasi.
-2.  Server: 15 menit sebelum jam presentasi, ulangi "Langkah 2: Menjalankan Aplikasi" di atas untuk menjalankan server.
-3.  Server: Kirimkan link ngrok yang baru (misal: https://xyz.ngrok.io) kepada client.
-4.  Client: Membuka link di browser dan menjalankan demo secara live, ditenagai oleh GPU dari Server.
-5.  Server: Wajib menjaga laptop tetap menyala dan terhubung ke internet stabil selama demo berlangsung.
+- Koordinasi untuk Demo: Tentukan jam presentasi.
+- Server: 15 menit sebelum jam presentasi, ulangi "Langkah 2: Menjalankan Aplikasi" di atas untuk menjalankan server, dan kirimkan link ngrok yang baru (misal: https://xyz.ngrok.io) kepada client.
+- Client: Membuka link di browser dan menjalankan demo secara live, ditenagai oleh GPU dari Server.
+- Server: Wajib menjaga laptop tetap menyala dan terhubung ke internet stabil selama demo berlangsung.
