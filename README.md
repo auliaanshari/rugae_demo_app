@@ -16,7 +16,6 @@ Aplikasi ini akan dijalankan di server lokal (laptop yang kuat) dan di-tunneling
     |   `-- 📂 test_set_npz/
     |       |-- 📂 K01A (Bernado Barus)/
     |       |   |-- K01A (Bernado Barus)_final.npz
-    |       |   `-- ... (file augmentasi lainnya)
     |       `-- 📂 ... (folder pasien test lainnya) ...
     |
     |-- 📂 models/
